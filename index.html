@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Agenda Barbearia </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Agenda Barbearia </h1>
+      <form>
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Horário:</label>
+        <input type="time" id="time" name="time" required>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Agendar</button>
+      </form>
+      <ul id="schedule">
+        <li class="header">
+          <div>Data</div>
+          <div>Horário</div>
+          <div>Nome</div>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
